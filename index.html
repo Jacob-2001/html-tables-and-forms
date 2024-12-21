@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>html tables and forms</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>HTML TABLES AND<br> FORMS</h1>
+    <div class="mycontainer">
+        
+        <div class="container1">
+            <table>
+                <tr>
+                    <th> nameS</th>
+                 <th>phone</th>
+                    <th>adress</th>
+                </tr>
+                <tr>
+                    <td>SASU MICHAEL</td>
+                    <td>0277405017</td>
+                    <td>p.o.box OD 132</td>
+                </tr>
+                <tr>
+                    <td>PRICE OHENE</td>
+                    <td>0277405017</td>
+                    <td>p.o.box 165</td>
+                </tr>
+                <tr>
+                    <td>POBEE EMMANUEL</td>
+                    <td>0277405017</td>
+                    <td>p.o.box 32 AMASAMAN</td>
+                </tr>
+                <tr>
+                    <td>EBENEZER ASIMEKU JNR</td>
+                    <td>0277405017</td>
+                    <td>p.o.box OD 135</td>
+                </tr>
+                <tr>
+                    <td>MELISAH MENSAH</td>
+                    <td>0277405017</td>
+                    <td>p.o.box 65,ACHIMOTA</td>
+                </tr>
+               
+            </table>
+        </div>
+        <div class="2"></div>
+    </div>
+    <div class="mycontainers">
+        <div class="container3" >
+            <div class="container1">
+               <table>
+                    <tr>
+                        <th> nameS</th>
+                     <th>phone</th>
+                        <th>adress</th>
+                    </tr>
+                    <tr>
+                        <td>SASU MICHAEL</td>
+                        <td>0277405017</td>
+                        <td>p.o.box OD 132</td>
+                    </tr>
+                    <tr>
+                        <td>PRICE OHENE </td>
+                        <td>0277405017</td>
+                        <td>p.o.box 165</td>
+                    </tr>
+                    <tr>
+                        <td>POBEE EMMANUEL</td>
+                        <td>0277405017</td>
+                        <td>p.o.box 32 AMASAMAN</td>
+                    </tr>
+                    <tr>
+                        <td>EBENEZER ASIMEKU JNR</td>
+                        <td>0277405017</td>
+                        <td>p.o.box OD 135</td>
+                    </tr>
+                    <tr>
+                        <td>MELISAH MENSAH </td>
+                        <td>0277405017</td>
+                        <td>p.o.box 65,ACHIMOTA</td>
+                    </tr>
+                   
+                </table>
+        </div>
+        <div class="container4">
+         <forms>
+            <h2>FORMS</h2>
+           <label>
+            
+            <fieldset>
+                
+                <label for="name">ENTER YOUR NAME:
+                    <input id="name"name="name"type="text"required/>
+                </label><br><br>
+                <label for="age">ENTER YOUR AGE:
+                    <input id="age"name="name"type="number"required/>
+                </label><br><br>
+                <label for="adress">ENTER YOUR ADRESS:
+                    <input id="adress"name="adress"type="text"required/>
+                </label><br><br>
+                <label for="Phone number">ENTER YOUR PHONE NUMBER:
+                    <input id="phone number"name="phone number"type="number"required/>
+                </label><br><br>
+               
+                <label for="GENDER">GENDER:</label>
+                    <input id="male"name="gender"type="radio"value="male"required />
+                    <label for="male">MALE</label>
+                    <input id="female"name="gender"type="radio" value="female"required/>
+                    <label for="female">FEMALE</label><br><br>
+
+                    <label for="BUSINESS CATEGORY">SELECT BUISINESS CATEGORY:</label>
+                    <select id="business-category"name="business-category">
+                        <option value="select-category">select category</option>
+                        <option value="Agriculture">Agriculture</option>
+                        <option value="Minning">Minning</option>
+                        <option value="Construction">Construction</option>
+                        </select>
+                    </label>
+                    <label for="submit button">
+                        <input type="submit" value="submit"/>
+                    </label>
+            </fieldset>
+
+         </forms>
+        </div>
+        <div class="container5">
+            <table>
+                <tr>
+                    <th> nameS</th>
+                 <th>phone</th>
+                    <th>adress</th>
+                </tr>
+                <tr>
+                    <td>SASU MICHAEL</td>
+                    <td>0277405017</td>
+                    <td>p.o.box OD 132</td>
+                </tr>
+                <tr>
+                    <td>PRINCE OHENE</td>
+                    <td>0277405017</td>
+                    <td>p.o.box 165</td>
+                </tr>
+                <tr>
+                    <td>POBEE EMMANUEL</td>
+                    <td>0277405017</td>
+                    <td>p.o.box 32 AMASAMAN</td>
+                </tr>
+                <tr>
+                    <td>EBENEZER ASIMEKU JNR</td>
+                    <td>0277405017</td>
+                    <td>p.o.box OD 135</td>
+                </tr>
+                <tr>
+                    <td>MELISAH MENSAH </td>
+                    <td>0277405017</td>
+                    <td>p.o.box 65,ACHIMOTA</td>
+                </tr>
+               
+            </table>
+        </div>
+    </div>
+    <footer></footer>
+    <style>
+        
+         .mycontainer{
+            background-color: aquamarine;
+         }
+         .container1{
+          
+           table,th,td{
+            border-spacing:50px ;
+            border:2px solid black;
+            border-collapse: collapse;
+            padding-left: 35px;
+           padding-top: 35px;
+           padding-right:35px;
+           padding-bottom:35px;
+           th{
+            background-color: black;
+             color: aliceblue;
+           }
+           }
+         }
+         .mycontainers{
+            background-color:lightgray;
+            width: 100%;
+        }
+         .continer3,.container4,.container5 {
+           display: inline-block;
+           vertical-align: top;
+           width: 33.33%;
+           float:left;
+           box-sizing:border-box;
+
+         }
+         .container4{
+            width:100%;
+            display:inline-block;
+         }
+
+        
+         }
+         .container3{
+            table,th,td{
+            border-spacing:50px ;
+            border:2px solid black;
+            border-collapse: collapse;
+            padding-left: 35px;
+           padding-top: 35px;
+           padding-right:35px;
+           padding-bottom:35px;
+           }
+         }
+         .container5{
+            table,th,td{
+            border-spacing:50px ;
+            border:2px solid black;
+            border-collapse: collapse;
+            padding-left: 35px;
+           padding-top: 35px;
+           padding-right:35px;
+           padding-bottom:35px;
+           th{
+            background-color: black;
+             color: aliceblue;
+           }
+           }
+         }
+         h1{
+            font-size: 100px;
+            border: 2PX solid white;
+            color: black;
+            text-align: center;
+         }
+         h2{
+            color: black;
+            background-color: white;
+            font-size: 30px;
+            border: 2PX solid white;
+            padding: 5PX;
+           width: auto;
+         }
+         
+        
+        
+    </style>
+    </body>
+</html>
